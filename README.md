@@ -16,5 +16,5 @@ Conceitos de java Script
 ### Objeto
 - Criando um objeto com função e reaproveitando a função
 - Criando um simples metodo dentro do objeto. Toda função dentro do objeto é chamada de metodo
-- Criando um simples metodo com incremento e acessando valores do objeto
+- Criando um simples metodo com incremento e acessando valores do objeto. Para acessar os valores usei o this
 
