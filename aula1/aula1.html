@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document </title>
+
+    <script>
+
+        function change() {
+            let number = document.getElementById("input").value;
+            let texto = document.getElementById('texto');
+            let numbers = parseInt(number)
+            texto.innerHTML += `<h1> Seu numero é ${numbers} </h1>`
+            texto.innerHTML += `<p> Sua raiz quadrada é ${Math.sqrt(numbers)}</p>`
+            texto.innerHTML += `<p> ${number} e inteiro? ${Number.isInteger(numbers)} </> `
+
+        }
+
+    </script>
+</head>
+
+<body>
+
+    <input id="input" type="text" placeholder="Digite seu valor" />
+    <button onclick="change()"> Enviar </button </body>
+    <div id="texto"> </div>
+
+</html>
