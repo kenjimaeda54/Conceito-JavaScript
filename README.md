@@ -10,5 +10,5 @@ Conceitos de java Script
 - Funções sem nenhum retorno e parametro
 - Funções com retorno é um paremetro
 - Funções com dois parametros é retorno
-- Funções que recebe um parametro é assumem na propria função dois, e são alterados posteriormente pelo qual recebeu
+- Funções que recebe um argumento é assumem na propria função dois paremetros, e são alterados  os parametros posteriormente pelos argumentos ou não.
 - Funçõs arrow 
