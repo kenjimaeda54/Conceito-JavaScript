@@ -1,6 +1,11 @@
 const array = ['Maria', 'Joao', 'Carlos']
 
 
+
+//com splice eu deleto  os valores ou seja fatio,começei no 0 e terminei no segundo
+array.splice(0, 2);
+console.log(array)
+
 //retorno se isto e uma instancia de array
 console.log(array instanceof Array);
 
