@@ -30,3 +30,10 @@ Conceitos de java Script
 ### Avaliação circuito
 - Conceito de avaliar na pratica o funcionamento de || é && fora do operador de condição  Exemplo console.log('people' || null)
 - Entendo conceito variaveis de valor  falso para java script (`` "" '', false,null,0. )
+
+### Operador ternario
+- Aplicando conceitos de operador ternario
+
+
+
+
