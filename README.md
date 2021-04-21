@@ -23,3 +23,10 @@ Conceitos de java Script
 - Entendo na pratica a diferença entre valores mutaveis e primitivos.
 - Entendo a importancia do spreed em arrays é objetos.
 - Variveis primitivas realizam apenas copias dos valores que são atribuidas,variaveis mutaveis realizam realmente a referencia a memoria do computador assim elas podem sofrer alterações 
+
+### Exercicio de função
+- Exercicio aplicando conceito de função e array
+
+### Avaliação circuito
+- Conceito de avaliar na pratica o funcionamento de || é && fora do operador de condição  Exemplo console.log('people' || null)
+- Entendo conceito variaveis de valor  falso para java script (`` "" '', false,null,0. )
