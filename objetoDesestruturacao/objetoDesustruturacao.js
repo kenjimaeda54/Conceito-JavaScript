@@ -11,6 +11,9 @@ const people = {
 
 }
 
+//utilizando rest 
+const { nome, ...rest } = people;
+console.log(rest);
 
 //pegando um valor de atribuição de um objeto dentro do objeto
 //dessa forma tem que ser o nome exato da varivavel,não e atribuição igual array
