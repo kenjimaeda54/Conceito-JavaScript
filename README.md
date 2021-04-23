@@ -7,7 +7,7 @@ Conceitos de java Script
 - array.push()
 - Entre outros metodos importantes
 
-### Array desutruturação
+### Array  atribuindo por desutruturação
 - Aplicando conceito de desustruturação em arrays
 - Utilizando conceitos de ...rest é array dentro de array.
 
@@ -22,6 +22,11 @@ Conceitos de java Script
 - Criando um objeto com função e reaproveitando a função
 - Criando um simples metodo dentro do objeto. Toda função dentro do objeto é chamada de metodo
 - Criando um simples metodo com incremento e acessando valores do objeto. Para acessar os valores usei o this
+
+### Objeto por atribuição desustruturação
+- Conceito de objetos por desustruração
+- Apliquei console.table({'variavel'})  para formar uma tabela do meu objeto
+- Apliquei rest é objeto dentro de objeto
 
 ### Variaveis primitvas e mutaveis
 - Entendo na pratica a diferença entre valores mutaveis e primitivos.
