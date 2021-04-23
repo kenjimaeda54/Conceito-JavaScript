@@ -7,6 +7,10 @@ Conceitos de java Script
 - array.push()
 - Entre outros metodos importantes
 
+### Array desutruturação
+- Aplicando conceito de desustruturação em arrays
+- Utilizando conceitos de ...rest é array dentro de array.
+
 ### Funções
 - Funções sem nenhum retorno e parametro
 - Funções com retorno é  paremetro
