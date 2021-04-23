@@ -34,6 +34,11 @@ Conceitos de java Script
 ### Operador ternario
 - Aplicando conceitos de operador ternario
 
+### Objeto Date
+- Aplicando objetos construtores. Todo objeto construtor e iniciado com new na sua frente.
+- Realizei exercicio de logica usando Objeto date é tambem pratiquei alguns conceitos 
+- Documentação https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Date
+
 
 
 
