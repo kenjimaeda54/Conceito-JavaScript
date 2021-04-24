@@ -1,23 +1,18 @@
 function allHour() {
     const data = new Date();
-    return data.toLocaleTimeString('PT-BR', {
+    return data.toLocaleTimeString('pt-BR', {
         hour12: false
-
-    });
-
+    })
 }
 
-const taime = setInterval(function timer() {
+const hours = setInterval(function () {
     console.log(allHour());
-
-}, 1000);
-
+}, 1000)
 
 setTimeout(function () {
-    clearInterval(taime)
-
+    clearInterval(hours)
 }, 3000)
 
 setTimeout(function () {
-    console.log('parou')
+    console.log("parou")
 }, 4000)
