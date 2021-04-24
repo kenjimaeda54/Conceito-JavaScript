@@ -27,13 +27,17 @@ function toHour(data) {
     })
 
 };
+
+// oque desejo executar precisa estar dentro do catch
+// variavel data não pretendo executar e apenas uma variavel global para gerar
+// minhas ações.
 try {
 
-    const hours = toHour(data);
+    const hours = toHour();
     console.log(hours)
 
 } catch (error) {
-    console.log('Gerou um erro')
+    console.log(error)
 
 } finally {
     console.log("Eu sou sempre executado")
