@@ -17,6 +17,9 @@ Conceitos de java Script
 - Funções com dois parametros é retorno
 - Funções que recebe um argumento é assumem na propria função dois paremetros, e são alterados  os parametros posteriormente pelos argumentos ou não.
 - Funçõs arrow 
+- Funçẽos avançadas com atribuição por destruturação
+- Aplicando conceito de arrays  na função
+
 
 ### Objeto
 - Criando um objeto com função e reaproveitando a função
