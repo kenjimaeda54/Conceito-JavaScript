@@ -52,6 +52,7 @@ Conceitos de java Script
 ### Tratando e lançando erro
 - Usando try,catch e objeto construtor new Error
 
-
+### setInterval e setTimeout
+- Aplicando conceitos de temporizadores no codigo
 
 
