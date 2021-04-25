@@ -22,6 +22,7 @@ Conceitos de java Script
 - Funções IIFE (são funções invocadas automaticamente,não precisam ser chamadas)
 - Aplicando é entendo conceitos da funções contruturoas e funções fabricas
 - Aplicando funções recursivas(funções que retornam a sim mesma ate determinada condição)
+- Funções geradoras. Função que trabalham sem o return e seus valores são retornado pelo yield
 
 
 ### Objeto
