@@ -20,6 +20,7 @@ Conceitos de java Script
 - Funçẽos avançadas com atribuição por destruturação
 - Aplicando conceito de arrays  na função
 - Funções IIFE (são funções invocadas automaticamente,não precisam ser chamadas)
+- Aplicando é entendo conceitos da funções contruturoas e funções fabricas
 
 
 ### Objeto
