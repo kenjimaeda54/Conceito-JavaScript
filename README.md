@@ -21,6 +21,7 @@ Conceitos de java Script
 - Aplicando conceito de arrays  na função
 - Funções IIFE (são funções invocadas automaticamente,não precisam ser chamadas)
 - Aplicando é entendo conceitos da funções contruturoas e funções fabricas
+- Aplicando funções recursivas(funções que retornam a sim mesma ate determinada condição)
 
 
 ### Objeto
