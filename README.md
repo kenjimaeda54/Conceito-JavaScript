@@ -19,6 +19,7 @@ Conceitos de java Script
 - Funçõs arrow 
 - Funçẽos avançadas com atribuição por destruturação
 - Aplicando conceito de arrays  na função
+- Funções IIFE (são funções invocadas automaticamente,não precisam ser chamadas)
 
 
 ### Objeto
