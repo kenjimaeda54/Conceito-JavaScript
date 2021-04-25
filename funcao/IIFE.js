@@ -14,7 +14,7 @@
 
 })("Luiz", 1.80);
 
-//criando outras funções dentro
+//criando outras funções dentro da função IFFE
 (function () {
 
     function people() {
