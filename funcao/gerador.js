@@ -6,7 +6,7 @@ function* gerador() {
     yield 3
 }
 const g1 = gerador()
-//retorna um objeto com value é done:
+//retorna um objeto com {value é done}:
 //ao iniciar a função done é falso,ate finalizar a função, então apos isto  se torna true
 console.log(g1.next().value)
 //cada vez que chamar o next retorna yield ate finalizar
@@ -14,43 +14,38 @@ console.log(g1.next().value)
 
 
 
-//funções geradoras é possivel delegar   outras dentro
-function* gerador1() {
-    yield "Eu estou gerando"
-    yield "Eu sou o proximo"
-    yield "Eu sou o ultimo"
+//com funções geradoras é possivel  delegar outras dentro
+function* geradors() {
+    yield "Eu estou iniciando";
+    yield "Eu agora sou o atual";
+    yield "Agora eu que sou o atual"
+
 }
 
-function* gerador2() {
-    yield* gerador1();
-    yield "Eu agora sou o utlimo"
-    yield 1
+function* all() {
+    yield* geradors();
+    yield "Vamos começar denovo"
+    yield "Eu sou o fim"
 }
-
-const result = gerador2()
+const result = all();
 for (let i = 0; i < 5; i++) {
-
     console.log(result.next().value)
-
 }
-
 
 //metodo dentro da função geradora
 function* implement() {
-    yield function () {
-        console.log("Eu vim do yeild1")
+
+    yield function first() {
+        console.log(3)
     }
 
-    yield function () {
-        console.log("Eu vim do yeild2")
+    yield function second() {
+        console.log(5)
     }
+
 }
-const results = implement();
-const f1 = results.next().value;
-const f2 = results.next().value;
+const print = implement();
+const f1 = print.next().value;
+const f2 = print.next().value;
 f1();
 f2();
-
-
-
-
