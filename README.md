@@ -6,6 +6,11 @@ Conceitos de java Script
 - array.length()
 - array.push()
 - Entre outros metodos importantes
+- Aplicando varios conceitos de uniões de array,utilizando metodo concat é o spread operator.
+
+### Array splice
+- Aprofundando no array splice,aplicando varios exemplos desse poderosso metodo.
+- Array splice(indice,delete,item,item)
 
 ### Array  atribuindo por desutruturação
 - Aplicando conceito de desustruturação em arrays
