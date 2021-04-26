@@ -9,7 +9,7 @@ Conceitos de java Script
 - Aplicando varios conceitos de uniões de array,utilizando metodo concat é o spread operator.
 
 ### Array metodo filter
-- Usei metodo filter para filtrar objetos é array
+- Poderosso metodo para filtras seus arrays, retorno e um novo array filtrado.
 - Metodo filter(value,index,array[] => callback)
 
 ### Array metodo splice
