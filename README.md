@@ -8,9 +8,13 @@ Conceitos de java Script
 - Entre outros metodos importantes
 - Aplicando varios conceitos de uniões de array,utilizando metodo concat é o spread operator.
 
-### Array splice
+### Array metodo filter
+- Poderosso metodo para filtras seus arrays, retorno e um novo array filtrado.
+- Metodo filter(value,index,array[] => callback)
+
+### Array metodo splice
 - Aprofundando no array splice,aplicando varios exemplos desse poderosso metodo.
-- Array splice(indice,delete,item,item)
+- Metodo splice(indice,delete,item,item)
 
 ### Array  atribuindo por desutruturação
 - Aplicando conceito de desustruturação em arrays
