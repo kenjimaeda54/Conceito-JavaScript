@@ -1,17 +1,15 @@
-
 //filter(valor,indice,array) -> valor é os valores dos array//indice são os indices
 // é o array [] é o array em si.
 const numeros = [5, 80, 1, 2, 3, 5, 8, 7, 11, 15, 22, 27]
 
 //estou pegando os valores e verificando se são marioes que 10,se for eu tenho
-//calback para a constante filters.Dentro da função filter que se torna um metodo
-//estou usando apeas a propriedade valor numeros.filter(valor => valor > 10)
+//calback para a constante filters.
 const filters = numeros.filter(item => item > 10);
 console.log(filters)
 
 
 //outra maneira de realizar
-const filters = numeros.filter(function (valor, inice, index) {
+const filters = numeros.filter(function (valor) {
     return valor > 10
 })
 console.log(filters)
@@ -27,13 +25,13 @@ const pessoas = [
     { nome: "Clei", idade: 55 },
     { nome: "Erika", idade: 70 },
 ];
+const pessoaFilterNome = pessoas.filter(value => value.nome.length >= 5);
+const pessoaFilterNumero = pessoas.filter(value => value.idade > 50);
+const pessoaFilterA = pessoas.filter(value => value.nome.toLowerCase().endsWith('a'));
 
-const pessoaFilterNome = pessoas.filter(item => item.nome.length >= 5);
-const pessoaFilterNumero = pessoas.filter(item => item.idade > 50);
-const pessoaFilterA = pessoas.filter(item => item.nome.toLocaleLowerCase().endsWith('a'));
+
 //em pessoaFilterA coloquei metodo toLocaleLowerCase(),para validar apenas os minusculos
 //endsWith("a") é um metodo que pega so a ultima letra
-
 console.log(pessoaFilterNome);
 console.log(pessoaFilterNumero);
 console.log(pessoaFilterA);
