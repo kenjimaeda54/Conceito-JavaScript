@@ -8,6 +8,10 @@ Conceitos de java Script
 - Entre outros metodos importantes
 - Aplicando varios conceitos de uniões de array,utilizando metodo concat é o spread operator.
 
+### Array forEach
+- Novo conceito em interar em cada item do array
+- forEach(value,index,array[] => callback)
+
 ### Array metodo reduce
 - Com reduce é possivel eu utilizar como filtro é map,porém não e boa pratica
 - Apliquei conceito em array e objetos
