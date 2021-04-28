@@ -8,8 +8,20 @@ Conceitos de java Script
 - Entre outros metodos importantes
 - Aplicando varios conceitos de uniões de array,utilizando metodo concat é o spread operator.
 
+### Array metodo reduce
+- Com reduce é possivel eu utilizar como filtro é map,porém não e boa pratica
+- Apliquei conceito em array e objetos
+- Reduce e diferente dos outros metodos citado,seu comportamento e parecido ao for,tem um valor acumulador é inicial
+- reduce(acumulator,value,index,array[] =>function(() {},0)
+
+### Array metodo map
+- Aplicando map em array é array de objetos
+- Aplicando alguns conceitos importantes
+- map(value,index,array[] => callback)
+
 ### Array metodo filter
 - Poderosso metodo para filtras seus arrays, retorno e um novo array filtrado.
+- Apliquei em array é array de objetos
 - Metodo filter(value,index,array[] => callback)
 
 ### Array metodo splice
